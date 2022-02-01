@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="$(MSBuildProjectDirectory)\..\common.props" />
+
+    <ItemGroup>
+        <Compile Include="src\StateMachine.fs" />
+        <Compile Include="test\RegexToEpsNfaTests.fs" />
+    </ItemGroup>
+
+</Project>

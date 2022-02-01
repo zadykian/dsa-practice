@@ -5,9 +5,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{A6830A
 		common.props = common.props
 	EndProjectSection
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DsaPractice.RegexStateMachine", "DsaPractice.RegexStateMachine\DsaPractice.RegexStateMachine.fsproj", "{B2DEE5FE-EFD0-4E34-834D-087E9D5E8642}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2DEE5FE-EFD0-4E34-834D-087E9D5E8642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DEE5FE-EFD0-4E34-834D-087E9D5E8642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DEE5FE-EFD0-4E34-834D-087E9D5E8642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DEE5FE-EFD0-4E34-834D-087E9D5E8642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
